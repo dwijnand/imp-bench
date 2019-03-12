@@ -1,13 +1,13 @@
-#Imp vs Implicitly
+# Imp vs Implicitly
 I've made this repo in order to benchmark https://github.com/non/imp
 that claims to implement a faster `implicitly`.
 
 I'm trying to check it's particular claim that `implicitly[ClassTag[Int]]` is slower than `imp[ClassTag[Int]]`.
 
-##Benchmarking framework used
+## Benchmarking framework used
 I do it by using the best benchmarking tool available for JVM: http://openjdk.java.net/projects/code-tools/jmh/
 
-This is the state-of-the art tool avaliable for JVM. In this [thread] (https://groups.google.com/forum/#!topic/mechanical-sympathy/m4opvy4xq3U) you can see many problems that make most of benchmarking frameworks unreliable or simply wrong for that kind of benchmark.
+This is the state-of-the art tool avaliable for JVM. In this [thread](https://groups.google.com/forum/#!topic/mechanical-sympathy/m4opvy4xq3U) you can see many problems that make most of benchmarking frameworks unreliable or simply wrong for that kind of benchmark.
 
 ## Result
 
